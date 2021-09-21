@@ -17,14 +17,14 @@ int main()
             {
                     if(j >= start) 
                     {
-                         if(j != start)cout << " "; //一個空白 // print blank
+                         if(j != start)cout << " "; // print blank
                          
-                         cout << count;          //印出數字
+                         cout << count; 
                          count = j < num ? count+1 : count-1;
                     }
                     else
                     {
-                        cout << "  ";               //兩個空白
+                        cout << "  ";             
                     }
             }
             cout << endl; 
